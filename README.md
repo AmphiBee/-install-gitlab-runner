@@ -5,10 +5,10 @@ It installs Docker, configures the runner, and registers it with your GitLab ins
 
 ## 🚀 Usage
 
-Run the following command directly on your EC2 instance:
+Run the following command as root (sudo) directly on your EC2 instance:
 
 ```bash
-curl -s https://raw.githubusercontent.com/AmphiBee/-install-gitlab-runner/main/install-gitlab-runner.sh | bash -s <GITLAB_URL> <REGISTRATION_TOKEN>
+curl -s https://raw.githubusercontent.com/AmphiBee/install-gitlab-runner/main/install-gitlab-runner.sh | bash -s <GITLAB_URL> <REGISTRATION_TOKEN>
 ```
 
 Replace:
@@ -19,7 +19,7 @@ Replace:
 ### Example
 
 ```bash
-curl -s https://raw.githubusercontent.com/AmphiBee/-install-gitlab-runner/main/install-gitlab-runner.sh | bash -s https://git.amphibee.fr glrt-xxxxxxxxxxxxxx
+curl -s https://raw.githubusercontent.com/AmphiBee/install-gitlab-runner/main/install-gitlab-runner.sh | bash -s https://git.amphibee.fr glrt-xxxxxxxxxxxxxx
 ```
 
 ## ✅ Features
